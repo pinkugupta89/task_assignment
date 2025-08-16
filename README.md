@@ -24,6 +24,7 @@ It ensures clean, maintainable code with filtering, duplicate handling, and cach
 
 ---
 
+## 🛠️ Scripts
 ```json
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
@@ -31,16 +32,16 @@ It ensures clean, maintainable code with filtering, duplicate handling, and cach
   "build": "tsc",
   "start": "node dist/server.js"
 }
-
-## ⚡ Commands to run
- - npm i  → To install dependencies
+---
  - npm run dev → Run in development with hot reload
 
  - npm run build → Compile TypeScript to /dist
 
  - npm start → Run compiled code in production
 
-🔗 APIs Used
+ ---
+
+ 🔗 APIs Used
 
 Pollution Data API
 Base URL: https://be-recruitment-task.onrender.com
@@ -79,7 +80,8 @@ npm run dev
 npm run build
 npm start
 
-Limitations
+
+⚠️ Limitations
 
 Cache resets on server restart (no DB persistence).
 
