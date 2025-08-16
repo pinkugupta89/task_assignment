@@ -81,6 +81,26 @@ npm run dev
 npm run build
 npm start
 
+---
+
+## 🌐 API Endpoints
+
+User Login
+
+POST http://localhost:5000/api/user/login
+
+Body:
+
+{
+  "username": "testuser",
+  "password": "testpass"
+}
+
+Fetch Cities
+
+POST localhost:5000/api/cities?page=1&limit=10&country=FR
+
+---
 
 ⚠️ Limitations
 
