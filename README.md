@@ -113,6 +113,5 @@ Only English Wikipedia descriptions are fetched.
 👨‍💻 Author
 
 Pankaj Kumar Gupta (pinkugupta89@gmail.com)
-+919460495077
 ---
 Tech Lead | Node.js | MongoDB | NestJS | PostgreSQL | Redis | Microservices | Docker | K8s | Git
