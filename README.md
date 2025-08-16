@@ -96,11 +96,11 @@ Body:
   "password": "testpass"
 }
 
-Fetch Cities
+Get Cities
 
-POST localhost:5000/api/cities?page=1&limit=10&country=FR
+GET http://localhost:5000/api/cities?page=1&limit=10&country=FR
 
----
+
 
 ⚠️ Limitations
 
